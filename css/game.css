@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+}
+.main {
+	background-color: cornflowerblue;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 500px;
+}
+.frame {
+	position: relative;
+	height: 500px;
+	width: 400px;
+	background-color: cornsilk;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.player {
+	position: absolute;
+	top: 235px;
+	left: 185px;
+	z-index: 1001;
+}
+.bg0_1 {
+	position: absolute;
+	z-index: 0;
+	left: 0px;
+}
+.bg0_2 {
+	position: absolute;
+	z-index: 0;
+	left: 400px;
+}
+.bg1_1 {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0px;
+}
+.bg2_1 {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 400px;
+}
+.menu {
+	position: absolute;
+	z-index: 1002;
+	width: 100%;
+	top: 100px;
+	text-align: center;
+}
+button {
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 0px;
+	font-family: Jokerman;
+	width: 100px;
+	font-size: 18px;
+	background-color: cornflowerblue;
+}
+.pipe1 {
+	position: absolute;
+	left: 400px;
+	z-index: 1000;
+	top: -250px;
+}
+.pipe2 {
+	position: absolute;
+	left: 400px;
+	z-index: 1000;
+	top: 250px;
+}
+.flag {
+	position: absolute;
+	z-index: 9999;
+}
+.gameover {
+	position: absolute;
+	color: rgba(240, 0, 0, 0.9);
+	text-shadow: 2px 2px 4px rgba(220, 0, 0, 0.5);
+	display: none;
+	font-family: Niagara Solid;
+	width: 100%;
+	text-align: center;
+	padding-top: 150px;
+	z-index: 1002;
+	font-size: 30px;
+}
+.gameover span{
+	font-size: 80px;
+}
+.title {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: rgba(31, 120, 228, 0.9);
+	text-shadow: 2px 2px 2px rgba(4, 4, 250, 0.5);
+}
+.title2 {
+	font-family: Jokerman;
+	font-size: 40px;
+	color: rgba(31, 120, 228, 0.9);
+	text-shadow: 2px 2px 2px rgba(4, 4, 250, 0.5);
+}
+.gold{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(244, 16, 14, 0.9);
+	text-shadow: 2px 2px 1px rgba(255, 111, 4, 1);
+	position: absolute;
+	top: 5px;
+	left: 70%;
+	z-index: 1002;
+}
+
+.gold_font{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(244, 16, 14, 0.9);
+	text-shadow: 2px 2px 1px rgba(255, 111, 4, 1);
+	position: absolute;
+	z-index: 1002;
+	width: 100%;
+	text-align: center;
+}
+.hit{
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+}
+.hit{
+	position: absolute;
+}
+.arrow{
+	position: absolute;
+}
