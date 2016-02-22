@@ -1,3 +1,3 @@
 # flying-dag-Qing
 =o=
-game1.html 开始游戏！
+game.html 开始游戏！
