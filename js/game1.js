@@ -2,18 +2,17 @@
 //想法:上传图片替换鸟和其他东西...
 //煽动的翅膀
 
-//参数设置(默认值)
 movespeed = 1; //移动速度(1)
 fps = 60; //帧率(60)
 bgspeed0 = 0.2; //上方背景移动速度
 bgspeed1 = 0.5; //下方背景移动速度
-a = 0.15; //重力加速度(0.12)
+a = 0.2; //重力加速度(0.12)
 v = 0; //初始速度(0)
-flypower = 4.5; //小鸟的力量(4)
-pipespeed = 1.25; //水管速度(1)
+flypower = 5; //小鸟的力量(4)
+pipespeed = 1.5; //水管速度(1)
 pipetimer = 2000; //出水管时间间隔(没用)
-pipegap = 130; //水管水平间隔(120)
-pipeindex = 110; //水管垂直间隔(110)
+pipegap = 120; //水管水平间隔(120)
+pipeindex = 100; //水管垂直间隔(110)
 //alive_src = "img/p3_a.png";
 alive_src = "img/test1.png";
 die_src = "img/sile1.png";
